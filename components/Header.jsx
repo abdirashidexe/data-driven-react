@@ -1,5 +1,8 @@
 export default function Header() {
     return (
-        <h1>I'm the header component!</h1>
+        <header>
+            <img src="../globe.png" alt="globe icon"/>
+            <h1>My travel journal.</h1>
+        </header>
     )
 }
